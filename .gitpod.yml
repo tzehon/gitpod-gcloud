@@ -4,3 +4,6 @@ image:
 
 ports:
   - port: 8080
+
+tasks:
+  - command: zsh
