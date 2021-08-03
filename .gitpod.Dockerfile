@@ -14,9 +14,5 @@ ENV ZSH_THEME robbyrussell
 # Install oh-my-zsh
 RUN wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh || true
 
-RUN brew install autojump
-
-RUN echo "[ -f /home/linuxbrew/.linuxbrew/etc/profile.d/autojump.sh ] && . /home/linuxbrew/.linuxbrew/etc/profile.d/autojump.sh" >> .zshrc
-
 # Start zsh
 CMD [ "zsh" ]
