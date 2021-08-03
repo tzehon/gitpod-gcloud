@@ -12,4 +12,4 @@ RUN sudo apt-get install google-cloud-sdk-app-engine-python google-cloud-sdk-app
 ENV ZSH_THEME robbyrussell
 
 # Install oh-my-zsh
-RUN wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh || true
+RUN wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
